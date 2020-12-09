@@ -1,0 +1,88 @@
+# Django-shop Stripe Russian translation file.
+# Copyright (C) 2020, Jacob Rief
+# This file is distributed under the same license as the PACKAGE package.
+# Yuriy Mamaev <execut>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-10 00:07+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: shop_stripe/modifiers.py:12
+msgid "Credit Card"
+msgstr "Кредитная карта"
+
+#: shop_stripe/modifiers.py:24
+msgid "+ {}% handling fee"
+msgstr "+ {}% комиссия за обработку"
+
+#: shop_stripe/payment.py:39
+msgid "Stripe payment token is missing"
+msgstr "Платежный токен Stripe отсутствует"
+
+#: shop_stripe/payment.py:55
+#, python-brace-format
+msgid "Stripe returned status '{status}' for id: {id}"
+msgstr "Stripe вернул статус '{status}' для идентификатора: {id}"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:14
+msgid "Payment"
+msgstr "Оплата"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:23
+msgid "Card Holder"
+msgstr "Держатель карты"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:25
+msgid "Card holder name"
+msgstr "Имя держателя карты"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:31
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:52
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:94
+msgid "This field is required."
+msgstr "Это поле обязательно к заполнению."
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:41
+msgid "Creditcard Number"
+msgstr "Номер кредитной карты"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:43
+msgid "Valid Card Number"
+msgstr "Номер кредитной карты"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:62
+msgid "Expiration Date"
+msgstr "Дата окончания срока"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:65
+msgid "Month"
+msgstr "Месяц"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:71
+msgid "Year"
+msgstr "Год"
+
+#: shop_stripe/templates/shop/stripe-creditcard-form.html:86
+msgid "Security Code"
+msgstr "CSV-код"
+
+#: shop_stripe/workflows.py:12
+msgid "Paid using Stripe"
+msgstr "Оплатить с помощью Stripe"
+
+#: shop_stripe/workflows.py:37
+msgid "Acknowledge Payment"
+msgstr "Подтвердить платеж"
