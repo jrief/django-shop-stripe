@@ -44,7 +44,6 @@ coverage.xml
 *,cover
 
 # Translations
-*.mo
 *.pot
 
 # Django stuff:
@@ -55,3 +54,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# IDE
+.idea
